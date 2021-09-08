@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mostafa_fathi.attended_me">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Attended_Me">
+
+        <activity android:name="com.mostafa_fathi.attended_me.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mostafa_fathi.attended_me.SheetActivity" />
+        <activity android:name="com.mostafa_fathi.attended_me.SheetListActivity" />
+        <activity android:name="com.mostafa_fathi.attended_me.StudentActivity" />
+        <activity android:name="com.mostafa_fathi.attended_me.MainActivity"/>
+
+
+    </application>
+
+</manifest>
